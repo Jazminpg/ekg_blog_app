@@ -29,11 +29,12 @@ INSTALLED_APPS = [
     'blog',
     'accounts',
     'pages',
+    'articles',
 
     # 3rd Party
     'crispy_forms', 
 ]
-
+TIME_ZONE = 'America/Mexico_City' 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',

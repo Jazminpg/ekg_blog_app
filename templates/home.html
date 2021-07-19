@@ -1,6 +1,6 @@
-
-
 {% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
 
 {% block content %}
 {% if user.is_authenticated %}
@@ -11,4 +11,12 @@
     <a href="{% url 'login' %}">Log In</a> | 
     <a href="{% url 'signup' %}">Sign Up</a>
 {% endif %}
+    <br/>
+    <div class="jumbotron">
+        <h1 class="display-4">ECG Visual App</h1>
+        <p class="lead">A website for cardiologists.</p> 
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="{% url 'article_list' %}" role="button">View All Records</a> 
+        </p>
+    </div>
 {% endblock content %}
