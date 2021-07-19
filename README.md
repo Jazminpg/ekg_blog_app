@@ -14,4 +14,6 @@ The Visualization App/Blog is still apart from the heart rate display tool.
 
 Numpy and Scipy were used to create the heart rate signal at different views.
 
+Also, almost every app inside the project has been tested with Testcase.
+
 Read the docs: https://ecg-visual-app.readthedocs.io/en/latest/
