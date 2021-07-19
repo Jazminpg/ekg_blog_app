@@ -1,4 +1,4 @@
-# ekg_blog_app
+# ECG Blog App
 This app at first was to show different heart rates, save them and classified them in order to help cardiologists to have a place to visualize its patients records.
 
 Tools: 
